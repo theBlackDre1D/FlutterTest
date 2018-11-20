@@ -8,6 +8,8 @@ class Products extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print('[Products] build()');
+
     return Column(
       children: products
           .map(
